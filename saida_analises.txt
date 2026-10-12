@@ -1,0 +1,515 @@
+Municípios com reconhecimento 2025: 1886  % não atuou: 37.1 
+   0    1 
+23.0 47.3 
+
+   0    1 
+ 793 1093 
+   
+       0    1
+  0  240  553
+  1 1086    7
+só seca no RS: 198  no NE: 728 
+
+#### LOGIT sem desabrigados  n= 1786  G= 26  McFadden= 0.112 
+                      OR    lo     hi     p
+(Intercept)        0.595 0.226  1.566 0.248
+rec25_so_seca      2.408 1.356  4.276 0.009
+vigil              0.954 0.793  1.148 0.587
+diag               0.670 0.516  0.871 0.006
+sistema            1.486 1.040  2.124 0.034
+estimativa         1.180 0.677  2.055 0.524
+capacit            0.710 0.559  0.900 0.009
+dirig_sup          1.042 0.810  1.340 0.719
+secret             0.951 0.687  1.318 0.727
+rh10               0.884 0.762  1.026 0.096
+estat              1.024 0.812  1.290 0.822
+gasto              1.127 0.928  1.370 0.203
+pmas               1.200 0.944  1.524 0.118
+consorcio          1.025 0.706  1.487 0.882
+cofin              0.469 0.240  0.918 0.033
+conselho           0.951 0.854  1.059 0.324
+ouvid              0.803 0.568  1.136 0.191
+cib                0.875 0.554  1.381 0.493
+compdec            0.891 0.534  1.485 0.623
+dc_mapeam          1.000 0.725  1.379 0.999
+dc_anos            0.963 0.895  1.037 0.273
+hab                0.830 0.571  1.205 0.290
+alin               1.069 0.822  1.390 0.581
+troca              0.974 0.735  1.290 0.840
+hid                0.921 0.740  1.145 0.418
+seca               0.978 0.722  1.325 0.873
+ameaca             1.062 0.852  1.325 0.560
+estresse           1.269 0.977  1.648 0.070
+lista              0.902 0.627  1.299 0.533
+vuln               0.936 0.623  1.406 0.725
+logpop             0.757 0.539  1.062 0.098
+q4                 1.190 0.806  1.758 0.342
+regiaoCentro Oeste 2.350 0.441 12.522 0.221
+regiaoNordeste     1.279 0.263  6.220 0.701
+regiaoNorte        0.981 0.179  5.387 0.979
+regiaoSul          0.663 0.162  2.725 0.483
+
+#### LOGIT com desabrigados  n= 1786  G= 26  McFadden= 0.116 
+                      OR    lo    hi     p
+(Intercept)        0.917 0.293 2.874 0.865
+rec25_so_seca      1.687 1.018 2.795 0.044
+vigil              0.953 0.790 1.150 0.585
+diag               0.674 0.518 0.877 0.007
+sistema            1.491 1.024 2.172 0.040
+estimativa         1.182 0.655 2.130 0.545
+capacit            0.709 0.564 0.891 0.007
+dirig_sup          1.030 0.802 1.322 0.798
+secret             0.963 0.700 1.325 0.788
+rh10               0.877 0.752 1.023 0.088
+estat              1.031 0.821 1.296 0.764
+gasto              1.131 0.930 1.376 0.194
+pmas               1.207 0.951 1.533 0.107
+consorcio          1.008 0.691 1.470 0.964
+cofin              0.477 0.242 0.942 0.037
+conselho           0.951 0.852 1.061 0.334
+ouvid              0.804 0.570 1.136 0.192
+cib                0.865 0.549 1.363 0.458
+compdec            0.885 0.528 1.484 0.607
+dc_mapeam          1.015 0.735 1.402 0.917
+dc_anos            0.968 0.902 1.039 0.318
+hab                0.821 0.569 1.185 0.257
+alin               1.082 0.833 1.406 0.513
+troca              0.980 0.737 1.303 0.879
+hid                0.936 0.749 1.168 0.519
+seca               0.953 0.701 1.297 0.734
+ameaca             1.077 0.858 1.352 0.491
+estresse           1.291 0.994 1.678 0.055
+lista              0.919 0.621 1.359 0.632
+vuln               0.934 0.620 1.409 0.720
+logpop             0.746 0.527 1.056 0.091
+q4                 1.126 0.761 1.666 0.514
+desab              0.528 0.276 1.013 0.054
+regiaoCentro Oeste 1.919 0.377 9.763 0.323
+regiaoNordeste     1.231 0.253 5.999 0.744
+regiaoNorte        1.001 0.166 6.029 0.999
+regiaoSul          0.609 0.145 2.550 0.409
+
+AME só seca (pp): 18 
+NE preditos médios: demais 30.4  só seca 49.8 
+EF UF so_seca OR 2.91  p 0.005 
+Vigilância: hidro OR 0.62  p 0.02 | seca OR 1.18  p(z) 0.046 | interação OR 1.91  p 0.005 
+Histórico seca: interação OR 1.63  p 0.017 | só seca OR 1.61  p(z) 0.023 | demais OR 0.99  p 0.931 | hid_1319 OR 1.03  p 0.7 
+Registros: so_seca OR 2.28  p 0.008 
+Sem RS: so_seca OR 3.05  p 0.001 
+
+#### prep  n= 5169  ICC nulo= 0.204  var UF= 45.02 
+                         b    se       df     p
+(Intercept)         59.151 4.143   34.088 0.000
+vigil                3.330 0.810 5133.885 0.000
+diag                 3.101 0.815 5134.789 0.000
+sistema             -0.443 0.913 5134.193 0.628
+estimativa           3.750 1.314 4983.170 0.004
+capacit              3.826 0.791 5130.875 0.000
+dirig_sup            0.757 0.887 5123.196 0.394
+secret               1.210 0.970 5129.058 0.213
+rh10                 0.885 0.532 5118.105 0.096
+estat                0.178 0.410 5133.832 0.665
+gasto                0.310 0.537 5088.148 0.564
+pmas                 2.004 1.044 5086.309 0.055
+consorcio            3.145 0.942 5132.355 0.001
+cofin                3.185 1.046 5134.378 0.002
+conselho             4.608 0.410 5125.496 0.000
+ouvid                3.344 0.838 5133.011 0.000
+cib                  5.318 1.143 5134.994 0.000
+compdec              2.664 1.017 5070.790 0.009
+dc_mapeam            1.989 0.911 5129.431 0.029
+dc_anos              0.051 0.239 5116.764 0.830
+hab                 -0.298 1.094 5129.478 0.786
+alin                 0.555 0.811 5053.392 0.494
+troca                1.800 0.728 5120.943 0.013
+hid                  4.738 0.502 5033.337 0.000
+seca                 1.726 0.472 4472.935 0.000
+ameaca               1.074 0.579 5126.819 0.064
+estresse             1.518 0.540 4811.778 0.005
+lista                2.083 1.146 5134.712 0.069
+vuln                 1.197 0.759 4425.214 0.115
+logpop               1.454 0.838 5102.168 0.083
+regiaoCentro Oeste -23.429 5.458   19.055 0.000
+regiaoNordeste      -9.743 4.424   21.437 0.039
+regiaoNorte         -8.133 4.787   23.677 0.102
+regiaoSul           -0.442 5.377   17.964 0.935
+
+#### prov  n= 1876  ICC nulo= 0.029  var UF= 6.45 
+                               b    se       df     p
+(Intercept)               48.914 4.687  137.236 0.000
+vigil                     -0.494 1.480 1811.517 0.739
+diag                      -0.232 1.510 1833.631 0.878
+sistema                    1.951 1.683 1796.261 0.246
+estimativa                 4.587 2.183 1236.054 0.036
+capacit                   -0.340 1.537 1818.809 0.825
+dirig_sup                  2.452 1.695 1838.996 0.148
+secret                     1.078 1.740 1571.228 0.536
+rh10                      -2.750 0.984 1761.147 0.005
+estat                      0.134 0.792 1818.737 0.866
+gasto                      0.354 0.943 1591.900 0.707
+pmas                       1.100 1.849 1354.013 0.552
+consorcio                 -2.070 1.716 1710.783 0.228
+cofin                      4.634 1.655 1665.253 0.005
+conselho                   2.472 0.806 1811.009 0.002
+ouvid                     -0.297 1.501 1813.563 0.843
+cib                        4.949 2.253 1804.709 0.028
+compdec                    0.556 2.092 1720.642 0.791
+dc_mapeam                 -1.643 1.691 1822.758 0.331
+dc_anos                   -0.241 0.416 1515.359 0.562
+hab                       -1.488 1.863 1835.606 0.424
+alin                       0.821 1.471  963.490 0.577
+troca                      1.501 1.386 1838.203 0.279
+hid                        0.202 0.864  667.589 0.815
+seca                      -1.605 0.943  911.600 0.089
+ameaca                     0.098 1.050 1661.838 0.926
+estresse                   0.050 1.002 1086.136 0.960
+lista                      2.041 2.015 1779.625 0.311
+vuln                       1.895 1.308  688.125 0.148
+logpop                    -1.968 1.444 1567.718 0.173
+atuou_regular              4.077 1.675 1838.034 0.015
+evento_enchente_inundacao 14.916 1.633 1677.627 0.000
+evento_seca_estiagem       3.953 2.065 1642.958 0.056
+regiaoCentro Oeste        -0.565 4.547   39.184 0.902
+regiaoNordeste            -5.314 3.450   23.947 0.137
+regiaoNorte               -5.414 4.031   36.595 0.188
+regiaoSul                  5.354 3.215    8.807 0.131
+
+#### plan  n= 1876  ICC nulo= 0.054  var UF= 13.04 
+                               b    se       df     p
+(Intercept)                5.664 4.249   99.631 0.186
+vigil                      1.543 1.236 1835.282 0.212
+diag                       2.561 1.260 1838.793 0.042
+sistema                    2.023 1.405 1834.594 0.150
+estimativa                 3.846 1.843 1518.254 0.037
+capacit                    3.441 1.283 1834.695 0.007
+dirig_sup                  2.157 1.412 1836.544 0.127
+secret                     1.178 1.460 1733.447 0.420
+rh10                       0.486 0.823 1810.024 0.555
+estat                     -0.159 0.661 1836.541 0.810
+gasto                     -0.321 0.791 1725.659 0.685
+pmas                       1.116 1.556 1640.672 0.473
+consorcio                  0.143 1.438 1784.155 0.921
+cofin                      4.771 1.386 1803.370 0.001
+conselho                   5.085 0.673 1838.570 0.000
+ouvid                      6.159 1.254 1829.929 0.000
+cib                        4.307 1.882 1834.325 0.022
+compdec                   -0.449 1.752 1771.718 0.798
+dc_mapeam                 -2.219 1.411 1838.313 0.116
+dc_anos                    0.586 0.350 1713.612 0.094
+hab                       -3.465 1.553 1838.913 0.026
+alin                       1.506 1.246 1407.519 0.227
+troca                      1.699 1.155 1837.416 0.141
+hid                        2.289 0.735 1284.624 0.002
+seca                      -0.648 0.800 1334.442 0.418
+ameaca                     1.707 0.880 1773.633 0.053
+estresse                   0.075 0.848 1404.737 0.929
+lista                      4.081 1.684 1827.461 0.015
+vuln                      -1.609 1.113 1212.745 0.149
+logpop                    -1.835 1.212 1742.864 0.130
+atuou_regular              7.349 1.396 1838.415 0.000
+evento_enchente_inundacao 10.032 1.368 1806.995 0.000
+evento_seca_estiagem       2.332 1.731 1793.270 0.178
+regiaoCentro Oeste        -4.681 4.455   29.068 0.302
+regiaoNordeste             0.222 3.473   24.431 0.950
+regiaoNorte                0.237 3.939   32.228 0.952
+regiaoSul                 -1.624 3.592   11.698 0.659
+
+#### dif  n= 1876  ICC nulo= 0.038  var UF= 29.48 
+                               b    se       df     p
+(Intercept)               43.519 5.801   76.254 0.000
+vigil                     -2.057 1.639 1837.440 0.210
+diag                      -2.843 1.670 1838.998 0.089
+sistema                   -0.098 1.864 1837.424 0.958
+estimativa                 0.714 2.450 1544.969 0.771
+capacit                   -3.661 1.702 1836.689 0.032
+dirig_sup                  0.168 1.872 1834.482 0.929
+secret                    -0.444 1.939 1753.436 0.819
+rh10                      -3.102 1.092 1816.230 0.005
+estat                      0.297 0.877 1838.222 0.735
+gasto                      0.588 1.051 1738.662 0.576
+pmas                      -0.256 2.068 1668.459 0.902
+consorcio                 -2.105 1.908 1792.328 0.270
+cofin                     -0.358 1.839 1816.259 0.846
+conselho                  -2.674 0.892 1838.932 0.003
+ouvid                     -6.493 1.663 1832.225 0.000
+cib                        0.825 2.496 1837.140 0.741
+compdec                    1.048 2.326 1776.547 0.652
+dc_mapeam                  0.502 1.871 1838.985 0.789
+dc_anos                   -0.765 0.465 1738.202 0.100
+hab                        2.126 2.059 1838.263 0.302
+alin                      -0.951 1.658 1471.919 0.566
+troca                     -0.097 1.531 1835.580 0.949
+hid                       -1.906 0.979 1376.573 0.052
+seca                      -1.022 1.064 1393.805 0.337
+ameaca                    -1.541 1.168 1784.429 0.187
+estresse                  -0.014 1.129 1448.925 0.990
+lista                     -1.877 2.234 1831.797 0.401
+vuln                       3.209 1.483 1273.035 0.031
+logpop                    -0.282 1.609 1762.129 0.861
+atuou_regular             -3.297 1.851 1837.361 0.075
+evento_enchente_inundacao  4.843 1.815 1818.305 0.008
+evento_seca_estiagem       1.692 2.297 1807.076 0.461
+regiaoCentro Oeste         4.470 6.239   23.120 0.481
+regiaoNordeste            -5.094 4.884   20.425 0.309
+regiaoNorte               -4.895 5.499   26.259 0.381
+regiaoSul                  6.270 5.179   10.562 0.252
+
+FDR (BH) q<0,05 entre 87 testes: 21  p<0,05: 30 
+  mod        var            p            q
+ prep      vigil 4.028306e-05 5.006609e-04
+ prep       diag 1.418252e-04 1.370976e-03
+ prep estimativa 4.343669e-03 2.361870e-02
+ prep    capacit 1.376449e-06 2.395021e-05
+ prep  consorcio 8.460853e-04 6.134118e-03
+ prep      cofin 2.346698e-03 1.361085e-02
+ prep   conselho 6.565275e-29 5.711789e-27
+ prep      ouvid 6.725722e-05 7.314223e-04
+ prep        cib 3.372323e-06 4.889868e-05
+ prep    compdec 8.844475e-03 3.664140e-02
+ prep  dc_mapeam 2.904139e-02 9.357782e-02
+ prep      troca 1.343886e-02 5.314459e-02
+ prep        hid 6.084274e-21 2.646659e-19
+ prep       seca 2.563711e-04 2.230428e-03
+ prep   estresse 4.947218e-03 2.399018e-02
+ prov estimativa 3.583637e-02 1.111639e-01
+ prov       rh10 5.239236e-03 2.399018e-02
+ prov      cofin 5.171878e-03 2.399018e-02
+ prov   conselho 2.197988e-03 1.361085e-02
+ prov        cib 2.820438e-02 9.357782e-02
+ plan       diag 4.213847e-02 1.222015e-01
+ plan estimativa 3.705464e-02 1.111639e-01
+ plan    capacit 7.396763e-03 3.217592e-02
+ plan      cofin 5.896941e-04 4.663944e-03
+ plan   conselho 6.431210e-14 1.865051e-12
+ plan      ouvid 9.835601e-07 2.139243e-05
+ plan        cib 2.221225e-02 8.051942e-02
+ plan        hab 2.584925e-02 8.995538e-02
+ plan        hid 1.897119e-03 1.269611e-02
+ plan      lista 1.548359e-02 5.856837e-02
+
+#### ROBUSTEZ prep 
+           EF_CR2  semRS registros GLMM_OR
+cofin        3.2* 3.8***     3.3** 1.27***
+estimativa  3.7**   3.6*      3.3* 1.39***
+conselho   4.6*** 4.7***    4.6*** 1.34***
+ouvid       3.3** 3.2***    3.3*** 1.25***
+capacit    3.8*** 3.8***    3.8*** 1.27***
+diag         3.2* 3.3***    3.1*** 1.22***
+vigil      3.4*** 3.2***    3.4*** 1.24***
+cib          5.3* 6.1***    5.3*** 1.38***
+pmas          2.1   2.9*      2.2*    1.13
+consorcio   3.2** 3.5***     3.1**  1.21**
+gasto         0.3    0.5       0.1    1.03
+estat         0.2    0.3       0.2    1.01
+secret        1.4    1.6       1.4    1.07
+hid        4.6***   5***    5.1*** 1.41***
+seca        1.7**  1.6**     1.6**   1.1**
+lista           2    2.1       2.2    1.11
+hab          -0.3    0.1      -0.3    0.99
+
+#### ROBUSTEZ prov 
+           EF_CR2 semRS semEVT registros GLMM_OR
+cofin         4.1  4.1*   4.1*     4.7**  1.35**
+estimativa    4.5   4.1   5.1*      4.7*   1.33*
+conselho     2.4*  2.2* 2.7***     2.5** 1.16***
+ouvid        -0.4  -0.2    0.3      -0.3    0.98
+capacit      -0.1   0.2   -0.1      -0.4    0.97
+diag         -0.2   1.4   -0.5      -0.3    0.99
+vigil        -0.5  -0.1      0      -0.5    0.98
+cib           5.3   4.4     5*        5*   1.32*
+pmas          0.7   2.5    0.8       1.2    1.08
+consorcio    -1.7  -0.7   -1.9        -2    0.88
+gasto         0.1   1.2    0.3       0.4    1.02
+estat         0.2   0.1   -0.2       0.1    1.01
+secret        0.4   2.5    1.3       1.1    1.08
+hid           0.6     1    1.5         0    1.01
+seca         -1.8 -2.1*    -2*      -1.4    0.91
+lista         2.3   2.3    3.5       2.1    1.11
+hab          -1.1  -1.8     -1      -1.5     0.9
+
+#### ROBUSTEZ plan 
+           EF_CR2  semRS semEVT registros GLMM_OR
+cofin        4.6* 6.4***  4.3**      5*** 1.28***
+estimativa  4.6**   4.3*   4.6*        4*    1.21
+conselho   5.1*** 5.1*** 5.4***    5.1*** 1.33***
+ouvid      6.6*** 6.1*** 6.7***    6.1***  1.4***
+capacit      3.6*   3.4*  3.6**     3.3**    1.2*
+diag          2.8   2.7*    2.5      2.5*   1.15*
+vigil         1.6      2    2.1       1.5     1.1
+cib             4    3.3   4.1*      4.4*    1.3*
+pmas          1.4    2.3    1.1       1.4    1.06
+consorcio     0.3    0.8    0.3       0.2    1.01
+gasto        -0.1   -0.1   -0.3      -0.4    0.97
+estat         0.1   -0.2   -0.3      -0.2    0.99
+secret        1.5    0.4    1.5       1.3    1.06
+hid           1.9 2.7*** 3.2***         1 1.15***
+seca         -0.7   -0.6   -0.8      -0.9    0.97
+lista        3.6*     4*    5**     4.7**  1.29**
+hab          -3.6   -2.6  -3.3*     -3.4*   0.82*
+
+#### PREPARAÇÃO entre não atuantes n= 3293 
+               b    se       df     p
+cofin      3.997 1.629 3257.753 0.014
+estimativa 1.732 1.903 3151.389 0.363
+conselho   5.174 0.545 3252.820 0.000
+ouvid      1.727 1.175 3258.000 0.141
+capacit    4.032 1.054 3254.276 0.000
+diag       3.684 1.116 3254.666 0.001
+vigil      2.000 1.116 3254.451 0.073
+cib        6.899 1.513 3255.792 0.000
+pmas       3.189 1.450 3221.452 0.028
+consorcio  4.275 1.290 3256.750 0.001
+gasto      0.990 0.754 3195.793 0.190
+estat      0.074 0.549 3258.656 0.893
+secret     0.849 1.340 3250.885 0.527
+hid        5.650 0.712 3150.683 0.000
+seca       1.931 0.687 2567.310 0.005
+lista      2.873 1.631 3258.997 0.078
+hab        0.404 1.586 3254.946 0.799
+Correlações preparação × MUNIC 2020 (DC):
+dc_compdec_2020 0.242 
+dc_plano_contingencia_2020 0.198 
+dc_alerta_2020 0.145 
+dc_mapeamento_2020 0.233 
+Média preparação por plano de contingência DC 2020: 68.6 82 
+
+#### PERÍODOS prep 
+               b    se       df     p
+hid_1319  -0.801 0.481 5019.137 0.096
+hid        4.651 0.512 5039.153 0.000
+hid_25     1.002 0.400 5130.719 0.012
+seca_1319 -2.829 0.777 4394.133 0.000
+seca       2.521 0.658 4768.061 0.000
+seca_25    0.857 0.567 4951.334 0.131
+
+#### PERÍODOS prov 
+               b    se       df     p
+hid_1319   0.138 0.791 1590.289 0.861
+hid       -0.203 0.880  707.293 0.818
+hid_25     1.723 0.561 1819.782 0.002
+seca_1319 -1.525 1.387  609.271 0.272
+seca      -0.546 1.169  994.470 0.640
+seca_25   -1.220 0.977 1315.045 0.212
+
+#### PERÍODOS plan 
+               b    se       df     p
+hid_1319  -0.682 0.663 1618.562 0.304
+hid        2.294 0.744 1040.055 0.002
+hid_25     0.330 0.468 1821.696 0.481
+seca_1319 -2.902 1.175  810.611 0.014
+seca       0.990 0.985 1194.886 0.315
+seca_25   -0.779 0.821 1434.771 0.343
+cor hid_1319 × hid: 0.43  seca: 0.56 
+
+#### INTERAÇÕES (EF de UF, CR2)
+idx_preparacao hid×conselho: linear b=-1.11 p=0.008 | binomial OR=1.02 p=0.428
+idx_preparacao hid×cofin: linear b=-2.15 p=0.051 | binomial OR=0.93 p=0.241
+idx_preparacao hid×capacit: linear b=-2.29 p=0.005 | binomial OR=0.96 p=0.296
+idx_preparacao hid×ouvid: linear b=-2.05 p=0.046 | binomial OR=0.97 p=0.648
+idx_preparacao hid×diag: linear b=-1.37 p=0.151 | binomial OR=1.00 p=0.955
+idx_preparacao hid×vigil: linear b=-0.35 p=0.531 | binomial OR=1.11 p=0.021
+idx_estrategica hid×conselho: linear b=-0.05 p=0.930 | binomial OR=0.98 p=0.455
+idx_estrategica hid×cofin: linear b=1.45 p=0.453 | binomial OR=1.06 p=0.528
+idx_estrategica hid×capacit: linear b=0.03 p=0.985 | binomial OR=0.98 p=0.731
+idx_estrategica hid×ouvid: linear b=-0.08 p=0.948 | binomial OR=0.97 p=0.637
+idx_estrategica cofin×lista: linear b=10.80 p=0.011 | binomial OR=1.60 p=0.016
+idx_estrategica conselho×cofin: linear b=2.35 p=0.073 | binomial OR=1.09 p=0.137
+idx_preparacao cofin×PeqI: linear b=4.64 p=0.014 | binomial OR=1.22 p=0.101
+cofin|lista=0: -0.3  cofin|lista=1: 9.9  int: 10.2  p 0 
+
+#### HECKMAN: exclusão rec25 z= 3.9  n_rec25 z= 3.6 
+idx_provisao  IMR b= -3.39  p= 0.311 
+             sem   com
+cofin       4.13  3.47
+conselho    2.40  2.35
+ouvid      -0.44 -0.52
+capacit    -0.09 -0.26
+estimativa  4.47  4.51
+idx_estrategica  IMR b= -0.3  p= 0.894 
+            sem  com
+cofin      4.60 4.54
+conselho   5.09 5.09
+ouvid      6.56 6.55
+capacit    3.60 3.58
+estimativa 4.56 4.56
+
+#### DESCRITIVOS
+prov3 média 71.8  CV 0.43  | plan média 34  CV 0.79 
+     Pequeno I Pequeno II Médio Grande Metrópole
+prov      70.2       75.2  74.8   71.8      69.4
+plan      30.6       36.9  39.1   44.7      53.6
+prep      68.2       78.6  83.3   88.9      96.9
+     Sudeste Centro Oeste Nordeste Norte  Sul
+prov    72.6         73.4     67.3  74.5 75.1
+plan    33.5         30.5     32.9  38.3 34.7
+prep    75.0         46.8     71.8  68.9 80.5
+
+ Pequeno I Pequeno II      Médio     Grande  Metrópole 
+      3804       1047        333        303         16 
+
+ Pequeno I Pequeno II      Médio     Grande  Metrópole 
+      1219        436        159        169         12 
+cor prov4-prov3 0.94 
+prep sem conselho: 73.7  com: 72.2 
+PROV4 sensibilidade
+                b    se       df     p
+cofin       5.269 1.522 1665.374 0.001
+estimativa  3.770 2.008 1247.262 0.061
+conselho    2.615 0.742 1809.981 0.000
+ouvid       1.290 1.381 1814.278 0.350
+capacit    -0.043 1.414 1819.163 0.976
+diag       -0.553 1.390 1833.592 0.691
+vigil      -0.651 1.362 1811.538 0.633
+cib         3.769 2.073 1804.836 0.069
+pmas        0.768 1.700 1359.477 0.652
+consorcio  -1.558 1.579 1714.211 0.324
+gasto      -0.233 0.867 1597.766 0.789
+estat       0.266 0.729 1818.815 0.715
+secret      1.348 1.600 1577.389 0.400
+hid         0.772 0.794  668.933 0.331
+seca       -1.746 0.867  923.214 0.044
+lista       3.976 1.854 1779.514 0.032
+hab        -1.320 1.714 1835.423 0.441
+
+#### 9. VERIFICAÇÕES ADICIONAIS
+EF de UF | vigilância: hidro OR 0.64  interação OR 1.73  p 0.017  secas: 1.105 0.346 
+EF de UF | histórico de secas: demais OR 1  interação OR 1.43  p 0.016  só seca: 1.435 0.025 
+sem RS | vigilância: hidro OR 0.61  interação OR 1.97  p 0.005  secas: 1.207 0.039 
+sem RS | histórico de secas: demais OR 1.03  interação OR 1.57  p 0.045  só seca: 1.626 0.064 
+
+ambos hidro  seca 
+  199   537  1050 
+ambos hidro  seca 
+ 16.6  24.6  47.1 
+só seca vs só hidro: OR 2.28  p 0.005  n= 1587 
+três categorias (ref. só hidro): ambos OR 0.84  p 0.444  | só seca OR 2.25  p 0.008 
+qualquer cofinanciamento estadual (%): 92.3 
+prep 
+                                 b    se       df     p
+cofin                        3.303 1.050 5132.478 0.002
+sis_cofin_estadual_qualquer -2.323 1.671 3194.166 0.165
+prov 
+                                b    se       df     p
+cofin                       4.354 1.668 1681.366 0.009
+sis_cofin_estadual_qualquer 3.773 2.681  203.227 0.161
+plan 
+                                 b    se       df     p
+cofin                        4.852 1.398 1816.505 0.001
+sis_cofin_estadual_qualquer -1.018 2.375  336.388 0.669
+correlação com o índice completo: 0.82 
+                         b    se       df     p
+cofin                2.637 1.348 5078.548 0.051
+estimativa           1.402 1.676 3991.226 0.403
+conselho             4.468 0.530 5134.216 0.000
+ouvid                2.161 1.081 5122.468 0.046
+capacit              4.463 1.021 5126.734 0.000
+diag                 2.058 1.049 5074.469 0.050
+vigil                4.356 1.043 5031.335 0.000
+cib                  6.406 1.472 5029.672 0.000
+consorcio            2.940 1.211 4978.577 0.015
+compdec             -0.193 1.301 4314.546 0.882
+hid                  3.948 0.640 3606.563 0.000
+seca                 0.846 0.592 1969.636 0.153
+regiaoCentro Oeste -12.068 3.972   20.670 0.006
+     Sudeste Centro Oeste     Nordeste        Norte          Sul 
+        70.2         54.9         75.8         70.1         76.7 
